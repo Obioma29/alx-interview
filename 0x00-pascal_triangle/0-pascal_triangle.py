@@ -4,10 +4,8 @@ Defines function that returns a list of lists of integers
 representing the Pascal's triangle of n
 """
 
-
 def pascal_triangle(n):
-    if type(n) is not int:
-        raise TypeError("n must be an integer")
+
     triangle = []
     if n <= 0:
         return triangle
