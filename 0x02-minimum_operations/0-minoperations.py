@@ -1,8 +1,10 @@
 #!/usr/bin/python3
-""" A Script that shows the  minimum operations needed in a CopyAll - Paste operation """
+""" A Script that shows the  minimum operations needed 
+in a CopyAll - Paste operation """
 
 def minOperations(n):
-    """ Method for compute the minimum number of operations for task Copy All and Paste """
+    """ Method for compute the minimum number of 
+    operations for task Copy All and Paste """
 
     z = 'H'
     i  = 'H'
