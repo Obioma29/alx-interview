@@ -2,7 +2,7 @@
 """ A Script that shows the  minimum operations needed 
 in a CopyAll - Paste operation """
 
-def minOperations(n):
+def minOperations(n: int) -> int
     """ Method for compute the minimum number of 
     operations for task Copy All and Paste """
 
