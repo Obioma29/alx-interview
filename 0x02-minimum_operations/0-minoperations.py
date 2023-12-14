@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-""" Minimum operations
+""" Minimum Operations
     """
 
-def minOperations(n: int) -> int:
-    """ Method to compute the minimum number of operations """
 
+def minOperations(n: int) -> int:
+    """ Minimum Operations needed to get n H characters """
     z = 'H'
     i  = 'H'
     op = 0
