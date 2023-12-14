@@ -2,20 +2,21 @@
 """ Minimum Operations
     """
 
-
 def minOperations(n: int) -> int:
-    """ Minimum Operations needed to get n H characters """
-    next = 'H'
-    body = 'H'
+    """ Minimum Operations needed 
+        to get n H characters """
+
+    z = 'H'
+    i = 'H'
     op = 0
-    while (len(body) < n):
-        if n % len(body) == 0:
+    while (len(i) < n):
+        if n % len(i) == 0:
             op += 2
-            next = body
-            body += body
+            z = i
+            i += i
         else:
             op += 1
-            body += next
-    if len(body) != n:
+            i += z
+    if len(i) != n:
         return 0
     return op
