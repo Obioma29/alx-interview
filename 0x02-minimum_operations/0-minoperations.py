@@ -1,10 +1,18 @@
 #!/usr/bin/python3
-""" Minimum Operations
-    """
+""" Script that computes a minimum operations
+    needed in a CopyAll - Paste task
+"""
 
 
 def minOperations(n: int) -> int:
-    """ Minimum Operations needed to get n H characters """
+    """
+    Method for compute the minimum number
+    of operations for task Copy All and Paste
+
+    Args:
+        n: input value
+    Return: the sum of the operations
+    """
     z = 'H'
     i  = 'H'
     op = 0
@@ -16,6 +24,6 @@ def minOperations(n: int) -> int:
         else:
             op += 1
             i += z
-    if len(i) != n:
-        return 0
-    return op
+            if len(i) != n:
+            return 0
+        return op
