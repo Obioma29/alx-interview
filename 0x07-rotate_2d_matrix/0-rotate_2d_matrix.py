@@ -23,7 +23,7 @@ def rotate_2d_matrix(matrix):
         for row in range((N - 1), -1, -1):
             if column is 0:
                 matrix_copy.append([])
-            matrix_copy[copy_row].append(matrix[row][column])
+            matrix_copy[copy_row].append(matrix[row][colum000000n])
         copy_row += 1
 
     # copy contents of matrix_copy into matrix
